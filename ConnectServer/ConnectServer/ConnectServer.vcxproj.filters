@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ClientManager">
+      <UniqueIdentifier>{c51251c4-8ae2-46e0-bfe4-3401190f51aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConnectServer">
+      <UniqueIdentifier>{bf909ce3-9f30-4fb2-9aaf-1320934cdc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConnectServerProtocol">
+      <UniqueIdentifier>{bf286524-a0e0-47fa-acb0-db6677bcf3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemScript">
+      <UniqueIdentifier>{61873588-46e2-488b-af59-fdb77a7bcfc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{197fcb63-bf2f-4368-b1d6-3cb1ab88e8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MiniDump">
+      <UniqueIdentifier>{8fd34f62-18ea-4a7c-bb8f-9f3e3a9feda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SocketManager">
+      <UniqueIdentifier>{89ae03fe-2e29-41b8-8a5f-1994690e63e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CriticalSection">
+      <UniqueIdentifier>{4e0567be-0a63-4a23-9f40-42a28124908d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerList">
+      <UniqueIdentifier>{176001ca-9b8f-42e6-a933-37cf75f7300d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{a7ef838f-d0aa-45f9-ad8e-0ebf06ae71f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IpManager">
+      <UniqueIdentifier>{aa33be8e-d417-426f-a21f-d46a99d08ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Queue">
+      <UniqueIdentifier>{e845ac38-6e9f-4607-81a8-d5555c9d0fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerDisplayer">
+      <UniqueIdentifier>{a2d0dff5-7ef5-41d9-bd27-8ca667b756e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{2f9d5eaf-3b77-42d0-b28c-336add89e555}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ConnectServer.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientManager.h">
+      <Filter>ClientManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectServer.h">
+      <Filter>ConnectServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectServerProtocol.h">
+      <Filter>ConnectServerProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="MemScript.h">
+      <Filter>MemScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDump.h">
+      <Filter>MiniDump</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketManager.h">
+      <Filter>SocketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketManagerUdp.h">
+      <Filter>SocketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>CriticalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerList.h">
+      <Filter>ServerList</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="IpManager.h">
+      <Filter>IpManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerDisplayer.h">
+      <Filter>ServerDisplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectServer.cpp">
+      <Filter>ConnectServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectServerProtocol.cpp">
+      <Filter>ConnectServerProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="MemScript.cpp">
+      <Filter>MemScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump.cpp">
+      <Filter>MiniDump</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketManager.cpp">
+      <Filter>SocketManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketManagerUdp.cpp">
+      <Filter>SocketManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalSection.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerList.cpp">
+      <Filter>ServerList</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="IpManager.cpp">
+      <Filter>IpManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerDisplayer.cpp">
+      <Filter>ServerDisplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>StdAfx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ConnectServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

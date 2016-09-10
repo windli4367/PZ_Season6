@@ -1,0 +1,4 @@
+09-09-2016 - Added ToolKit class;
+09-09-2016 - Added Config class;
+09-09-2016 - Added Offsets class;
+09-09-2016 - Added Fix class;

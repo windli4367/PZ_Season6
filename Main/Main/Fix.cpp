@@ -101,4 +101,16 @@ void cFix::Load()
 	// Fix TAB key on login screen
 	gToolKit.SetRange((LPVOID)oFixTabKeyLogin,5,ASM::NOP);
 	gToolKit.SetOp((LPVOID)oFixTabKeyLogin,cAllowTabSwitchLogin,ASM::JMP);
+
+	// Logs
+	CreateDirectory("Logs",NULL);
+
+	static char* LogName	= "Logs\\Error.log";
+	static char* LogName2	= "Logs\\Error_%d.log";
+	static char* DumpName	= "Logs\\Error.dmp";
+
+	gToolKit.SetDword((PVOID)(0x96A8C8+1),(DWORD)LogName);
+	gToolKit.SetDword((PVOID)(0x96A94F+1),(DWORD)LogName);
+	gToolKit.SetDword((PVOID)(0x96A9DB+1),(DWORD)LogName2);
+	gToolKit.SetDword((PVOID)(0x4D1D0B+1),(DWORD)DumpName);
 }

@@ -1,2 +1,0 @@
-//Index   MapNumber   MaxLife   DamageMin   DamageMax   Defense   AttackRate   DefenseRate   ExperienceRate   KillMessage   InfoMessage   RewardValue1   RewardValue2
-end

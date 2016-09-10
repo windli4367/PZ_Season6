@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Processes>
-  <Process Run="True" Delay="1000" Path="..\..\ConnectServer\ConnectServer.exe" Parameters="" />
-  <Process Run="True" Delay="3000" Path="..\..\DataServer\DataServer.exe" Parameters="" />
-  <Process Run="True" Delay="2000" Path="..\..\JoinServer\JoinServer.exe" Parameters="" />
-  <Process Run="True" Delay="4000" Path="..\..\GameServer\GameServer.exe" Parameters="" />
-  <Process Run="True" Delay="5000" Path="..\..\GameServerCS\GameServer.exe" Parameters="" />
-</Processes>

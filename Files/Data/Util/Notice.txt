@@ -1,4 +1,0 @@
-//	Type	Count	Opacity	Delay	Red	Green	Blue	Speed	RepeatTime	String
-//	2	0	255	0	0	0	255	15	20		"Perfect Project Season 6"
-//	3	0	255	0	0	255	255	15	25		"PerfectZone.com.br"
-end
